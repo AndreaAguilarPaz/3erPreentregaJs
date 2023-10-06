@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">PlinaBebe</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a class="boton-volver" href="/index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+                          </svg> Seguir comprando 
+                    </a> 
+                </li>
+
+                    <li><a class="boton-carrito active" href="/carrito.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                            <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                          </svg>
+                        Carrito 
+                        <span class="numerito">0</span>
+                        </a> 
+                    </li>
+
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="texto-footer">©2023 Andy</p>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito"></div>
+                <p class="carrito-vacio">Tu carrito esta vacio ☹</p>
+
+                <div class="carrito-productos disabled">
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./img/Alimentacion/baberoConMangas.jpg" alt="">
+                        <div class="carrito-producto-titulo"></div>
+                            <small>Titulo</small>
+                            <h3>Babero con mangas</h3>
+
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>1</p>
+                    </div>
+
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$3000</p>
+                    </div>
+
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$3000</p>
+
+                    </div>
+
+                    <button class="carrito-producto-eliminar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg></button>
+                    </div>
+
+
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./img/Alimentacion/baberoImpermeableBolsillo.png" alt="">
+                        <div class="carrito-producto-titulo"></div>
+                            <small>Titulo</small>
+                            <h3>Babero impermeable con bolsillo</h3>
+
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <p>2</p>
+                    </div>
+
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>$4000</p>
+                    </div>
+
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>$7000</p>
+
+                    </div>
+
+                    <button class="carrito-producto-eliminar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                      </svg></button>
+                    </div>
+
+
+            
+                </div>
+
+                <div class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+
+                    </div>
+                    
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="Total">$7000</p>
+                        </div>
+                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+
+                    </div>
+                    
+
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+    <script src="carrito.js"></script>
+</body>
+</html>
